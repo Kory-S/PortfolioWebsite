@@ -2,3 +2,67 @@
     margin: 0;
     padding: 0;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #235add;
+    height: 160px;
+    border: solid red 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo_design {
+    height: 150px;
+    width: 175px;
+    margin: 5px;
+    clip-path: polygon(
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%,
+        0% 50%
+    );
+    background-color: black;
+    color: #ffffff;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo_title {
+    margin: 25% 25% 0 25%;
+    font-size: 50px;
+    width: 50%;
+    border-bottom: solid red 2px;
+}
+
+.logo_description {
+    font-size: 10px;
+    margin: 0 25%;
+    padding-top: 5px;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_item {
+    padding: 60px 5px;
+    margin: 0;
+    font-size: 35px;
+    align-self: center;
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    background-color: #111111;
+}
